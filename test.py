@@ -14,14 +14,17 @@ app.config["DEBUG"] = True
 
 
 def get_content(url):
-    r = requests.get(url)
-    text = r.text
-    soup = BeautifulSoup(text, features="html.parser")
-    all_p = soup.find_all(["h1", "p"])
-    url_text = ""
-    for p in all_p:
-        url_text += p.text
-    return url_text
+    page = requests.get(url).text
+    soup = BeautifulSoup(page, "html.parser")
+    headline = soup.find("h1").get_text()
+    p_tags = soup.find_all("p")
+    # Get the text from each of the “p” tags and strip surrounding whitespace.
+    p_tags_text = [tag.get_text().strip() for tag in p_tags]
+    # Filter out sentences that contain newline characters '\n'
+    sentence_list = [sentence for sentence in p_tags_text if not '\n' in sentence]
+    sentence_list = [sentence for sentence in sentence_list if "." in sentence]
+    article = " ".join(sentence_list)
+    return article
 
 
 def top_sentences(url):
@@ -84,4 +87,4 @@ def upload():
         return render_template("summarize2.html", response=url_content, length_source=length_original, length_summary=length_summary)
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)
