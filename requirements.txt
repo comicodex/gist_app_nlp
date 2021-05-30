@@ -1,0 +1,4 @@
+beautifulsoup4==4.9.3
+spacy==3.0.6
+en-core-web-sm
+Werkzeug==2.0.1
