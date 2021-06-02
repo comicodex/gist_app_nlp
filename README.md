@@ -8,14 +8,14 @@ We are living in a fast-paced world. Nobody has time to absorb all the informati
 A fully responsive web application that scrapes the data from any given website and produces a concise summary distilling key information while maintaining the overall meaning. 
 
 ## Framework/Tech Stack ##
-[<img src="static\img\webscraping.png" height="50"/>](static\img\webscraping.png)
-[<img src="static\img\html5.jpg" height="50"/>](static\img\html5.jpg)
-[<img src="static\img\bootstrap.jpg" height="50"/>](static\img\bootstrap.jpg)
-[<img src="static\img\flask.jpg" height="50"/>](static\img\flask.jpg)
-[<img src="static\img\spacy.jpg" height="50" width=70/>](static\img\spacy.jpg)
+[<img src="static\img\webscraping.png" height="70"/>](static\img\webscraping.png)
+[<img src="static\img\html5.jpg" height="70"/>](static\img\html5.jpg)
+[<img src="static\img\bootstrap.jpg" height="70"/>](static\img\bootstrap.jpg)
+[<img src="static\img\flask.jpg" height="70"/>](static\img\flask.jpg)
+[<img src="static\img\spacy.jpg" height=50/>](static\img\spacy.jpg)
 
 ## The process ##
-[<img src="static\img\flowchart.JPG" height="30" width=250/>](static\img\flowchart.JPG)
+[<img src="static\img\flowchart.JPG" width=500/>](static\img\flowchart.JPG)
 
 ## Setup ##
 Please refer to the *requirements.txt* file
