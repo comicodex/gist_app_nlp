@@ -58,31 +58,48 @@
       <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
                     <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
                                    <link rel="shortcut icon" href="../assets/ico/favicon.png">
+  <!--
+  <script>
+    function evalSlider()
+    {
+      var sliderValue = document.getElementById("ratio").value;
+      document.getElementById("sliderVal").innerHTML = sliderValue;
+    }
+  </script>
+  -->                                 
   </head>
 
   <body>
-
+        
     <div class="container-narrow">
-
+      
       <div class="masthead">
         <ul class="nav nav-pills pull-right">
           <li><a href="https://github.com/comicodex"><i class="fa fa-github" style="font-size:24px"></i></a></li>
-          <li><a href="#"><i class="fa fa-linkedin" style="font-size:24px"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/agnese-navarro/"><i class="fa fa-linkedin" style="font-size:24px"></i></a></li>
           </ul>
-        <h3 class="muted">Gist app</h3>
-        
+        <p><img src="{{ url_for('static', filename='img/gistLogo.png') }}" width=80>
+        <h4 class="muted">Gist | Text Summarizer</h4>
+        </p>
+                
       </div>
 
       <hr>
 
       <div class="jumbotron">
-        <h4>Get to the gist of it in minutes!</h4>
-        <p><i>gist (noun) - "the point or substance of an argument, speech, etc"</i></p>
+        <p>
+        <h4>Instructions:</h4>Please enter url address and let Gist get the gist of it!</p>
+        <i>gist (noun) - "the point or substance of an argument, speech, etc"</i>
+        <br>
         <br>
         <p>
           
           <form action="/upload_gist" method="POST">
-            <input type="text" name="url" id="url" placeholder="Please enter url">
+            <input type="text" name="url" id="url" placeholder="ENTER URL HERE"><br>
+            <!--
+            <input type="range" id="ratio" min="10" max="50" step="5" onchange="evalSlider()" />
+            <output id="sliderVal"></output>
+            -->             
             <br><br>
             <button class="btn btn-info" id="submit">Get the gist</button>
             <button class="btn btn-info" type="reset" value="Reset">Reset</button>  
@@ -95,7 +112,7 @@
       <div class="row-fluid marketing">
         <div class="span6">
           <h4>About</h4>
-          <p>Simply enter URL of choice and let Gist get the gist of it with a click of a button. Gist uses NLP to collect key information and return a summary.</p>
+          <p>Gist uses Natural Language Processing to distill key information in a concise summary.</p>
 
           </div>
       </div>

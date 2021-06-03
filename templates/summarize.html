@@ -65,10 +65,12 @@
 
       <div class="masthead">
         <ul class="nav nav-pills pull-right">
-            <li><a href="https://github.com/comicodex"><i class="fa fa-github" style="font-size:24px"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin" style="font-size:24px"></i></a></li>
-            </ul>
-        <h3 class="muted">Gist app</h3>
+          <li><a href="https://github.com/comicodex"><i class="fa fa-github" style="font-size:24px"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/agnese-navarro/"><i class="fa fa-linkedin" style="font-size:24px"></i></a></li>
+          </ul>
+        <p><img src="{{ url_for('static', filename='img/gistLogo.png') }}" width=80>
+        <h4 class="muted">Gist | Text Summarizer</h4>
+        </p>
       </div>
 
       <hr>
@@ -76,8 +78,19 @@
 
       <div class="jumbotron">
         <h3>The gist...</h3>
-        <p>
-            <p>{{ response }}</p>
+        
+            <p>{{ response }}</p><br>
+
+            <p style="text-align: left">
+              <button class="btn btn-info" onclick="history.back(-1)" >Go back</button>
+            </p>
+            
+            <p style="text-align: right">
+            <a class="btn btn-info" download="summary.txt" href="static\files\summary.txt">Download gist</a>
+             
+          
+            </p>
+            
             <br><br>
             <p style="text-align:right;">Length original text: {{ length_source }} <br>Length gist: {{ length_summary }}</p>
             
