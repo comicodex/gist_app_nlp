@@ -29,6 +29,7 @@
       .jumbotron {
         margin: 60px 0;
         text-align: center;
+        
       }
       .jumbotron h1 {
         font-size: 72px;
@@ -58,6 +59,7 @@
       <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
                     <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
                                    <link rel="shortcut icon" href="../assets/ico/favicon.png">
+
   <!--
   <script>
     function evalSlider()
@@ -74,55 +76,58 @@
     <div class="container-narrow">
       
       <div class="masthead">
+        <!--
         <ul class="nav nav-pills pull-right">
           <li><a href="https://github.com/comicodex"><i class="fa fa-github" style="font-size:24px"></i></a></li>
           <li><a href="https://www.linkedin.com/in/agnese-navarro/"><i class="fa fa-linkedin" style="font-size:24px"></i></a></li>
           </ul>
-        <p><img src="{{ url_for('static', filename='img/gistLogo.png') }}" width=80>
+        -->
+        <img src="{{ url_for('static', filename='img/gistLogo.png') }}" width=80>
+        
         <h4 class="muted">Gist | Text Summarizer</h4>
-        </p>
+        
                 
       </div>
-
+      <div style='float: right;'><i>gist (noun) - "the point or substance of an argument, speech, etc"</i></div>
       <hr>
 
-      <div class="jumbotron">
+      <div class="jumbotron" >
+              
+   
+        <h4>Instructions:</h4>
+         
         <p>
-        <h4>Instructions:</h4>Please enter url address and let Gist get the gist of it!</p>
-        <i>gist (noun) - "the point or substance of an argument, speech, etc"</i>
-        <br>
+          Summarize any text in any language!<br>
+          Simply enter url address and let Gist get the gist of it:
+          
+          
+        </p>
+        
         <br>
         <p>
           
           <form action="/upload_gist" method="POST">
-            <input type="text" name="url" id="url" placeholder="ENTER URL HERE"><br>
+            <input type="text" name="url" id="url" placeholder="Enter url here"><br>
             <!--
             <input type="range" id="ratio" min="10" max="50" step="5" onchange="evalSlider()" />
             <output id="sliderVal"></output>
             -->             
-            <br><br>
+            <br>
             <button class="btn btn-info" id="submit">Get the gist</button>
             <button class="btn btn-info" type="reset" value="Reset">Reset</button>  
           </form>
             
         </p>
-        
+         
       </div>
       <hr>
-      <div class="row-fluid marketing">
-        <div class="span6">
-          <h4>About</h4>
-          <p>Gist uses Natural Language Processing to distill key information in a concise summary.</p>
-
-          </div>
-      </div>
-       <hr>
+      
 
       <div class="footer">
-        <p>&copy;Gist2021. All rights reserved.</p>
+        <p align="right">&copy;Gist2021. All rights reserved.</p>
       </div>
 
-    </div> <!-- /container -->
+    
 
 
   </body>

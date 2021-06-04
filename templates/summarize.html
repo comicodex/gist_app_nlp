@@ -64,48 +64,49 @@
     <div class="container-narrow">
 
       <div class="masthead">
+        <!--
         <ul class="nav nav-pills pull-right">
           <li><a href="https://github.com/comicodex"><i class="fa fa-github" style="font-size:24px"></i></a></li>
           <li><a href="https://www.linkedin.com/in/agnese-navarro/"><i class="fa fa-linkedin" style="font-size:24px"></i></a></li>
           </ul>
+        -->
         <p><img src="{{ url_for('static', filename='img/gistLogo.png') }}" width=80>
         <h4 class="muted">Gist | Text Summarizer</h4>
         </p>
       </div>
-
+      <div style='float: right;'><i>gist (noun) - "the point or substance of an argument, speech, etc"</i></div>
       <hr>
 
 
       <div class="jumbotron">
         <h3>The gist...</h3>
-        
+        Length of original text: {{ length_source }} <br>Length of summary: {{ length_summary }}
+        <br><br>
             <p>{{ response }}</p><br>
 
             <p style="text-align: left">
               <button class="btn btn-info" onclick="history.back(-1)" >Go back</button>
-            </p>
             
-            <p style="text-align: right">
-            <a class="btn btn-info" download="summary.txt" href="static\files\summary.txt">Download gist</a>
+            
+            
+            <a class="btn btn-info" download="summary.txt" href="static\files\summary.txt" style="text-align: right">Download the gist</a>
              
           
             </p>
-            
-            <br><br>
-            <p style="text-align:right;">Length original text: {{ length_source }} <br>Length gist: {{ length_summary }}</p>
+        
             
 
-        </p>
+            
         
       </div>
 
       <hr>
 
       <div class="footer">
-        <p>&copy;Gist2021. All rights reserved.</p>
+        <p align="right">&copy;Gist2021. All rights reserved.</p>
       </div>
 
-    </div> <!-- /container -->
+    
 
 
   </body>
