@@ -38,7 +38,7 @@ flask run
 ```
 
 ## Project Status ##
-Project is: *in progress*
+Project is: *complete*
 
 ## Contact ##
 Developed by @comicodex - feel free to contact me!
