@@ -22,7 +22,7 @@ Text summarization is the process of distilling the most important information f
 [<img src="static\img\flowchart.JPG" width=500/>](static\img\flowchart.JPG)
 
 ## Framework/Tech Stack ##
-[<img src="static\img\webscraping.png" height="70"/>](static\img\webscraping.png)
+[<img src="static\img\beautifulSoup.jpg" height="70"/>](static\img\beautifulSoup.jpg)
 [<img src="static\img\html5.jpg" height="70"/>](static\img\html5.jpg)
 [<img src="static\img\bootstrap.jpg" height="70"/>](static\img\bootstrap.jpg)
 [<img src="static\img\flask.jpg" height="70"/>](static\img\flask.jpg)
