@@ -40,5 +40,8 @@ flask run
 ## Project Status ##
 Project is: *complete*
 
+## Project Demo ##
+Find it [here](https://pages.github.com/)
+
 ## Contact ##
-Developed by @comicodex - feel free to contact me!
+Developed by &copy;comicodex2021 - feel free to get in touch!
