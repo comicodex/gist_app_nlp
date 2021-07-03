@@ -41,7 +41,7 @@ flask run
 Project is: *complete*
 
 ## Project Demo ##
-Find it [here](https://pages.github.com/)
+Find it [here](https://gistnlp.herokuapp.com/)
 
 ## Contact ##
 Developed by &copy;comicodex2021 - feel free to get in touch!
