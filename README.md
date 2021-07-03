@@ -1,4 +1,5 @@
 ## Welcome to Gist! 👋
+Dictionary definition:
 > *gist (noun) "the point or substance of an argument, speech, etc"*
 
 ## Introduction ##
