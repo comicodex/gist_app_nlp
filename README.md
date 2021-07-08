@@ -3,10 +3,10 @@ Dictionary definition:
 > *gist (noun) "the point or substance of an argument, speech, etc"*
 
 ## Introduction ##
-We are living in a fast-paced world. Nobody has time to absorb all the information that is thrown at us on a daily basis. With Internet being an endless source of text data, it is humanly impossible to keep pace. Such volume of data represents an invaluable source of knowledge which needs to be effectively summarized to be useful. GIST solves this problem by instantly truncating and filtering out any unnecessary data from any given website. Simply enter the url of your choice and let GIST get to the gist of it at a click of a button!
+We are living in a fast-paced world. Nobody has time to absorb all the information that is thrown at us on a daily basis. With Internet being an endless source of text data, it is humanly impossible to keep pace. Such volume of data represents an invaluable source of knowledge which needs to be effectively summarized to be useful. GIST solves this problem by instantly truncating and filtering out any unnecessary data from any given website. Simply enter the Wikipedia url of your choice and let GIST get to the gist of it at a click of a button!
 
 ## About ##
-A fully responsive web application that scrapes the data from any given website in any language and produces a concise summary. 
+A fully responsive web application that scrapes the data from any given Wikipedia website in any language and produces a concise summary. 
 
 ## Screenshot ##
 [<img src="static\img\screenshot.JPG" width=300/>](static\img\screenshot.JPG)
