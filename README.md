@@ -45,4 +45,6 @@ Project is: *complete*
 Find it [here](https://gistnlp.herokuapp.com/)
 
 ## Contact ##
-Developed by &copy;comicodex2021 - feel free to get in touch!
+Developed by &copy;comicodex2021 - feel free to connect!
+
+
