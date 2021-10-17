@@ -6,7 +6,7 @@ Dictionary definition:
 We are living in a fast-paced world. Nobody has time to absorb all the information that is thrown at us on a daily basis. With Internet being an endless source of text data, it is humanly impossible to keep pace. Such volume of data represents an invaluable source of knowledge which needs to be effectively summarized to be useful. GIST solves this problem by instantly truncating and filtering out any unnecessary data from any given website. Simply enter the Wikipedia url of your choice and let GIST get to the gist of it at a click of a button!
 
 ## About ##
-A fully responsive web application that scrapes the data from any given Wikipedia website in any language and produces a concise summary. Gist uses NLP and the Spacy library to extract key information from the source document and produce a concise summary without loosing the overall meaning of the text. Algorithm built from scratch.
+A fully responsive web application that scrapes the data from any given Wikipedia website in any language and produces a concise summary. Gist uses NLP and the Spacy library to extract key information from the source document and produce a coherent summary without loosing the overall meaning of the text. Algorithm built from scratch.
 
 ## Logo ##
 [<img src="static\img\g.png" width=150/>](static\img\g.png)
