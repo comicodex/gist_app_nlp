@@ -39,6 +39,10 @@ Run the following  `.Code`
 flask run
 ```
 
+## Deployment ##
+- Creating a web application using Flask
+- Deploying it using Heroku Cloud Service
+
 ## Project Status ##
 Project is: *complete*
 
