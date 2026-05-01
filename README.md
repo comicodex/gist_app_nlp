@@ -41,7 +41,7 @@ flask run
 
 ## Deployment ##
 - Creating a web application using Flask
-- Deploying it using Heroku Cloud Service
+- Deploying it using Render
 
 ## Project Status ##
 Project is: *complete*
